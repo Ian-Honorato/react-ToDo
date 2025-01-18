@@ -1,0 +1,62 @@
+.containerTodo {
+  width: 450px;
+  height: 100%;
+  background-color: rgb(8, 114, 213);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.formStyle {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.inputTarefa {
+  flex: 1;
+  padding: 10px 2px;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid white;
+  margin: 10px;
+}
+.addTarefa {
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 6px;
+  border: none;
+  margin: 10px;
+  background-color: white;
+  color: rgb(8, 114, 213);
+  cursor: pointer;
+}
+.title {
+  color: white;
+}
+.listaTarefa {
+  width: 350px;
+  list-style: none;
+  padding: 0;
+}
+.itemTarefa {
+  width: 100%;
+  padding: 10px 5px;
+  background-color: white;
+  margin: 5px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+}
+.buttonDelete {
+  background-color: rgb(231, 72, 90);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
